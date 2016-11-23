@@ -1,0 +1,19 @@
+/* Styles for the WOTD App */
+
+.wotd {
+    margin-top: 60px;
+}
+
+.definition {
+    padding: 0;
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.partOfSpeech {
+    font-style: italic;
+}
+
+.partOfSpeech::after {
+    content: " - ";
+}
