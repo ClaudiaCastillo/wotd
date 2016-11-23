@@ -1,0 +1,20 @@
+## Flask App
+Flask==0.11.1
+Flask-Script==2.0.5
+Flask-DotEnv==0.1.0
+requests==2.12.1
+python-dateutil==2.6.0
+
+## Extra Dependencies
+#Jinja2==2.8
+#MarkupSafe==0.23
+#Werkzeug==0.11.11
+#itsdangerous==0.24
+#click==6.6
+#six==1.10.0
+
+
+## Pip Stuff
+#pip==9.0.1
+#setuptools==28.8.0
+#wheel==0.30.0a0
