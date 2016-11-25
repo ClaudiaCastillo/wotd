@@ -30,7 +30,7 @@ BASEDIR = os.path.abspath(os.path.dirname(__file__))
 class Config(object):
 
     SECRET_KEY = os.environ.get('SECRET_KEY') or "theeaglefliesatmidnight"
-    WORDNIK_API_KEY = None
+    WORDNIK_API_KEY = os.environ.get('WORDNIK_API_KEY')
 
     @staticmethod
     def init_app(app):
